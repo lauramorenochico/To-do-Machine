@@ -21,7 +21,7 @@ To do Machine es una aplicación web simple para gestionar tus tareas diarias. E
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/react-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
 
 ## 🔗 Links
 
@@ -29,9 +29,11 @@ To do Machine es una aplicación web simple para gestionar tus tareas diarias. E
 
 ## Color Reference
 
-<div style="background-color: #85a1a0; width: 30px; height: 30px;"></div> 
-<div style="background-color: #c6b192; width: 30px; height: 30px;"></div> 
-<div style="background-color: #94a99b; width: 30px; height: 30px;"></div>
+| Color         | Hex                                                              |
+| ------------- | ---------------------------------------------------------------- |
+| Example Color | ![#85a1a0](https://via.placeholder.com/10/85a1a0?text=+) #85a1a0 |
+| Example Color | ![#c6b192](https://via.placeholder.com/10/c6b192?text=+) #c6b192 |
+| Example Color | ![#94a99b](https://via.placeholder.com/10/94a99b?text=+) #94a99b |
 
 ## Capturas de Pantalla
 
