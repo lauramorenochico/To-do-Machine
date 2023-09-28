@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+  color:black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('OAK3ZX0.jpg');
+  background-size: cover;
+    /* Opcional: ajusta la imagen para cubrir todo el elemento */
+  background-repeat: no-repeat;
+    /* Opcional: evita que la imagen se repita */
+    
+}
+
+#root {
+  margin:0 24px;
+  position: relaticve;
+  min-height: 100vh;
+}
+

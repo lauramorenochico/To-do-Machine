@@ -1,0 +1,48 @@
+.container{
+    display:flex;
+}
+.container-group{
+    align-items: center;
+    position: relative;
+}
+.TodoSearch {
+    background: #F9FBFC;
+    border-radius: 10px;
+    border: 3px solid rgb(198, 177, 146);
+    margin: 0 24px;
+    padding: 0 30px;
+    height: 64px;
+    width: calc(80% - 62px);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #1E1E1F;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+
+.TodoSearch::placeholder {
+    color: #A5A5A5;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.TodoSearch:focus {
+    outline-color:rgba(128, 169, 163, 255);
+}
+/*focus: cuando lo seleccionemos resalte el color del borde*/
+
+
+@media only screen and (min-width: 768px){
+    .TodoSearch {
+    font-size: 24px;
+    }
+}
+
+.fa-solid{
+    font-size: 24px;
+    color: rgba(128, 169, 163, 255);
+    position:absolute;
+    left: 40px;
+    top: 25px;
+}

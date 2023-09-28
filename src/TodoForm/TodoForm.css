@@ -1,0 +1,81 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    background-color: #80a9a3;
+    border-radius: 10px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    animation: jump 3s ease 3 ;
+        /* Aplica la animación llamada "jump" de forma infinita */
+    }
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Comienza y termina sin cambios en la posición vertical */
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Al 50% de la animación, el icono sube 20px */
+    }
+}
+
+
+label {
+text-align: center;
+font-size: 25px;
+margin:20px auto;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+textarea {
+    background-color: aliceblue;
+    border: 3px solid rgb(198, 177, 146);
+    border-radius: 5px;
+    box-shadow: 0px 5px 50px rgb(32, 35, 41, 0.25);
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100% - 25%); /*El uso de calc() es una función en CSS que permite realizar cálculos matemáticos en las propiedades. En este caso, estás restando el 25% del ancho del contenedor al 100% del ancho del contenedor. Esto puede ser útil para crear un diseño flexible y receptivo.*/
+}
+textarea::placeholder{
+    color: #a5a5a5;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+}
+
+textarea:focus {
+    outline-color: rgba(128, 169, 163, 255);
+}
+
+.containerBtn{
+    margin-top: 14px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.canceladdBtn{
+    background-color: rgb(198, 177, 146);
+    box-shadow: 0px 5px 50px rgb(32, 35, 41, 0.25);
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+

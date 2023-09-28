@@ -1,0 +1,53 @@
+.CreateBtn {
+background-color:rgba(128, 169, 163, 255);
+box-shadow: 0 0 10px rgba(7, 62, 43, 0.5);
+border: none;
+border-radius: 50%;
+cursor: pointer;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:16px;
+position: fixed;
+top: 5px;
+right:4px;
+font-weight: bold;
+color:aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60px;
+width: 60px;
+z-index:1;
+transition: transform 0.2s, box-shadow 0.2s;
+    /* Agregamos transiciones para transform y box-shadow */
+}
+
+
+/* Estilo para el hover */
+.CreateBtn:hover {
+    transform: scale(1.25);
+    /* Cambiamos el tamaño al 110% en hover */
+    box-shadow: 0 0 20px #073e2bcc;
+    /* Cambiamos la sombra en hover */
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .CreateBtn {
+        width: 100px;
+        /* Ajusta el tamaño que desees para tabletas y computadoras */
+        height: 100px;
+        right: 25px;
+        top:18px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+.CreateBtn {
+    width: 105px;
+    height: 105px;
+    right: 300px;
+    top:17px;
+    font-size: 24px;
+    }
+}

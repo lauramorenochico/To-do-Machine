@@ -1,0 +1,69 @@
+/* Estilo para el contenedor de carga y el texto */
+.text {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat';
+   
+}
+:root {
+    --dimension-square: 40px;
+    --border-square-width: 3px;
+    --border-square-color: #FFD3A3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-loading {
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+}
+
+.section-loading .load {
+    height: var(--dimension-square);
+    width: var(--dimension-square);
+    position: relative;
+}
+
+.section-loading .load:before,
+.section-loading .load:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: var(--border-square-width) solid var(--border-square-color);
+    -webkit-animation: animate 3s linear infinite;
+    animation: animate 3s linear infinite;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+   
+}
+
+.section-loading .load:after {
+    animation-direction: reverse;
+}
+
+@-webkit-keyframes animate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
