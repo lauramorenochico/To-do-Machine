@@ -32,8 +32,8 @@ To do Machine es una aplicación web simple para gestionar tus tareas diarias. E
 | Color         | Hex                                                              |
 | ------------- | ---------------------------------------------------------------- |
 | Example Color | ![#85a1a0](https://via.placeholder.com/10/85a1a0?text=+) #85a1a0 |
-| Example Color | ![#c6b192](https://via.placeholder.com/10/c6b192?text=+) #c6b192 |
-| Example Color | ![#94a99b](https://via.placeholder.com/10/94a99b?text=+) #94a99b |
+| Example Color | ![#c6b192](https://via.placeholder.com/10/c6b192?text=+)         |
+| Example Color | ![#94a99b](https://via.placeholder.com/10/94a99b?text=+)         |
 
 ## Capturas de Pantalla
 
