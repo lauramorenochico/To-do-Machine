@@ -21,8 +21,7 @@ To do Machine es una aplicación web simple para gestionar tus tareas diarias. E
 
 ## Tech Stack
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
 
 ## 🔗 Links
@@ -39,8 +38,8 @@ To do Machine es una aplicación web simple para gestionar tus tareas diarias. E
 
 ## Capturas de Pantalla
 
-![Pantalla principal](./src/CapturasPantalla/todo1.PNG)
+![Pantalla principal]<img src="./src/CapturasPantalla/todo1.PNG" alt="Pantalla de Inicio" width="400" height="300">
 Vista de pantalla principal versión tablet
 
-![Ventana modal](./src/CapturasPantalla/todo2.PNG)
+![Ventana modal]<img src="./src/CapturasPantalla/todo2.PNG" alt="Pantalla de Inicio" width="400" height="300">
 Desde la ventana modal puedes añadir tu nueva tarea
