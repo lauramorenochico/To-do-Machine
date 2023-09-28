@@ -1,10 +1,10 @@
 import React from 'react';
-//import './TodosNull.css';
+import './TodosNull.css';
 
 function TodosNull() {
 
   return (
- <p>Esa quest no se encuentra aquí, ve a otra taberna</p>
+ <p className='text'>No tienes ninguna quest activa</p>
   );
 }
 

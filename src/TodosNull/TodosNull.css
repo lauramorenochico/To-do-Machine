@@ -1,0 +1,13 @@
+.text{
+    font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin: 0;
+        padding: 24px 24px 4px 24px;
+        color: rgb(57 57 53);
+}
+@media screen and (min-width: 1250px) {
+    .text {
+        font-size: 40px;
+    }
+}

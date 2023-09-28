@@ -14,8 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "githubpages": "rm -rf build && rm -rf docs && npm run build && mv build docs && git add docs/* && git commit -m \"Publish in GitHub Pages\" && git push"
   },
   "eslintConfig": {
@@ -35,9 +35,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/lauramorenochico/To-do-Machine",
+  "homepage": "https://lauramorenochico.github.io/To-do-Machine/",
   "devDependencies": {
-    "gh": "^2.8.9",
-    "pages": "^0.0.16"
+    "gh-pages": "^6.0.0"
   }
 }
