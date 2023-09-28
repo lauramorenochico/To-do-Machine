@@ -4,10 +4,22 @@ font-size: 40px;
 text-align: center;
 margin: 0;
 padding:24px 24px 4px 24px;
+color:rgb(57 57 53);
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .title {
+    font-size: 50px;
+    }
+}
+@media screen and (min-width: 1250px) {
+    .title {
+    font-size: 50px;
+    }
+}
 .counter {
     font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(57 57 53);
     font-size: 24px;
     text-align: center;
     margin: 0;
@@ -19,6 +31,17 @@ padding:24px 24px 4px 24px;
     text-decoration-style: wavy;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .counter {
+    font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .counter {
+        font-size: 34px;
+    }
+}
 .mensaje{
 font-family: 'Playfair Display', serif;
     font-size: 24px;

@@ -38,9 +38,8 @@ To do Machine es una aplicación web simple para gestionar tus tareas diarias. E
 
 ## Capturas de Pantalla
 
-<img src="./src/CapturasPantalla/todo1.PNG" alt="Pantalla de Inicio" width="300" height="400">
+<img src="./src/CapturasPantalla/todo1.PNG" alt="Pantalla de Inicio" width="350" height="400">
 <p>Vista de pantalla principal versión tablet </p>
 
-![Ventana modal]<img src="./src/CapturasPantalla/todo2.PNG" alt="Pantalla de Inicio" width="300" height="400">
-
+<img src="./src/CapturasPantalla/todo2.PNG" alt="Pantalla de Inicio" width="350" height="400">
 <p>Desde la ventana modal puedes añadir tu nueva tarea</p>
