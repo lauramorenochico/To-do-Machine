@@ -1,75 +1,42 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# To do Machine - Aplicación de Lista de Tareas :bookmark_tabs:
 
-¡Hola, Platzinauta!
+## Authors
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+- [@lauramorenochico](https://github.com/lauramorenochico)
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+## Descripción
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+To do Machine es una aplicación web simple para gestionar tus tareas diarias. Esta aplicación te permite crear, editar, marcar como completadas, eliminar y buscar tareas de tu lista de pendientes. Está construida utilizando React y utiliza el almacenamiento local del navegador para guardar tus tareas de manera persistente.
 
-## Getting Started with Create React App
+## Características
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Agregar nuevas tareas con facilidad.
+- Marcar tareas como completadas.
+- Eliminar tareas no deseadas.
+- Buscar tareas específicas en tu lista.
+- Interfaz de usuario intuitiva y atractiva.
+- Almacenamiento local para mantener tus tareas guardadas incluso después de cerrar el navegador.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/react-original-wordmark.svg" alt="html5" width="40" height="40"/>
 
-### `npm start`
+## 🔗 Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/laura-moreno-chico-33aa03a2/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Color Reference
 
-### `npm run build`
+<div style="background-color: #85a1a0; width: 30px; height: 30px;"></div> 
+<div style="background-color: #c6b192; width: 30px; height: 30px;"></div> 
+<div style="background-color: #94a99b; width: 30px; height: 30px;"></div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Capturas de Pantalla
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Captura de Pantalla 1](link-a-tu-captura-1.png)
+_Describe aquí lo que se muestra en la captura de pantalla 1._
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Captura de Pantalla 2](link-a-tu-captura-2.png)
+_Describe aquí lo que se muestra en la captura de pantalla 2._
