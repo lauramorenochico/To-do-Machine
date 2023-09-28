@@ -8,8 +8,10 @@
 
 To do Machine es una aplicación web simple para gestionar tus tareas diarias. Esta aplicación te permite crear, editar, marcar como completadas, eliminar y buscar tareas de tu lista de pendientes. Está construida utilizando React y utiliza el almacenamiento local del navegador para guardar tus tareas de manera persistente.
 
-## Características
+## Características clave
 
+- Totalmente responsive y compatible con dispositivos móviles (teléfonos, tabletas).
+- Funciona de manera óptima en diversos tamaños de pantalla, incluidos dispositivos móviles, tabletas, laptops y computadoras de escritorio.
 - Agregar nuevas tareas con facilidad.
 - Marcar tareas como completadas.
 - Eliminar tareas no deseadas.
@@ -34,12 +36,11 @@ To do Machine es una aplicación web simple para gestionar tus tareas diarias. E
 | Example Color | ![#85a1a0](https://via.placeholder.com/10/85a1a0?text=+) #85a1a0 |
 | Example Color | ![#94a99b](https://via.placeholder.com/10/94a99b?text=+) #94a99b |
 | Example Color | ![#c6b192](https://via.placeholder.com/10/c6b192?text=+) #c6b192 |
-| Example Color | ![#94a99b](https://via.placeholder.com/10/94a99b?text=+)         |
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](link-a-tu-captura-1.png)
-_Describe aquí lo que se muestra en la captura de pantalla 1._
+![Pantalla principal](./src/CapturasPantalla/todo1.PNG)
+Vista de pantalla principal versión tablet
 
-![Captura de Pantalla 2](link-a-tu-captura-2.png)
-_Describe aquí lo que se muestra en la captura de pantalla 2._
+![Ventana modal](./src/CapturasPantalla/todo2.PNG)
+Desde la ventana modal puedes añadir tu nueva tarea
